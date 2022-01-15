@@ -1,0 +1,378 @@
+
+
+
+.toptitle h3{
+    font-family: 'Moon Dance', cursive;
+    font-weight: 700;
+
+}
+.headerlogo{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.menulist ul{
+    display: flex;
+}
+.menulist ul li{
+    list-style-type: none;
+    
+}
+.menulist a{
+    font-family:'Oswald', sans-serif;
+    font-weight: 800;
+    margin-right: 10px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.preorder{
+    display: flex;
+    justify-content: space-around;
+}
+.part1 h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    
+}
+.part1 p{
+    text-transform: capitalize;
+    font-family: 'Teko', sans-serif;
+    font-weight: 800;
+    font-weight: 300px;
+}
+
+
+.butt{
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    color: #fff;
+    padding: 5px;
+    background-color: #D70F64;
+    border-radius: 5px;
+    border: none;
+}
+.butt:hover{
+    
+    transition-delay: 100ms;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.377);
+    
+    
+}
+.preorder:hover .butt{
+    transform: rotate(-360deg);
+    transition: transform 1s;
+
+}
+.part1{
+    
+    width: 500px;
+
+    
+}
+
+.part1 img {
+    width: 236px;
+    margin-left: 25%;
+}
+
+
+.producthead h2{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+}
+.productcat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-top: 40px;
+}
+.product{
+    margin-top: 60px;
+    display: grid;
+    width: 300px;
+    height: 450px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px lightgrey;
+}
+.product img {
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    
+}
+.product h3,h5{
+    text-transform: capitalize;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 0;
+    padding: 0;
+}
+
+.product p{
+    text-transform: capitalize;
+    font-style: 350px;
+}
+
+
+
+
+.see h5{
+    justify-content: center;
+    color: #D70F64;
+    text-transform: capitalize;
+    padding: 30px;
+    text-align: right;
+    
+}
+
+.see:hover{
+    font-size: 15px;
+
+}
+
+.lastone{
+    display: flex;
+    justify-content: space-around;
+}
+.lastpart img{
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px lightgray;
+}
+.lastpart h1 {
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+button.buttn {
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    /* color: #D70F64; */
+    background: #D70F64;
+}
+
+
+.buttn a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.lastpart{
+    display: block;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    
+        /* display: inline-table; */
+        background-color: rgb(11, 8, 37);
+        padding: 20px;
+        display: flexbox;
+        display: flex;
+        color: white;
+        justify-content: space-around;
+        justify-content: space-evenly;
+}
+.footer h3 {
+    margin-left: 50px;
+}
+
+
+.footericon {
+    display: flex;
+    /* display: grid; */
+    justify-content: space-around;
+    color: white;
+}
+.footericon a{
+    color: white;
+}
+
+span {
+    color: goldenrod;
+}
+.logolist{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    margin-right: 20px;
+}
+.logos{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width:768px) {
+    .preorder {
+        display: flex;
+        width: auto;
+        justify-content: space-around;
+    }
+    .logo {
+        margin-right: 10px;
+        margin-bottom: 5px;
+        margin-top: 17px;
+    }
+    img.logim {
+        width: 50px;
+    }
+    .productcat {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding-top: 40px;
+    }
+    
+
+    .lastpart img {
+        width: 376px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px lightgrey;
+    }
+    .lastpart {
+        display: block;
+        width: 411px;
+        margin-bottom: 30px;
+        margin-left: 17px;
+    }
+    .uk{
+        margin-left: 69px;
+    }
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+    body {
+      background-color: rgb(214, 223, 226);
+    }
+    .headerlogo{
+        display: block;
+        justify-content: space-around;
+        
+    }
+
+    
+
+    .toptitle h3 {
+        font-family: 'Moon Dance', cursive;
+        font-size: 20px;
+        /* align-items: center; */
+        margin-left: px;
+    }
+    .part1 h1 {
+        font-family: 'Teko', sans-serif;
+        font-size: 22px;
+    }
+    .part1 p {
+        width: 392px;
+        text-transform: capitalize;
+        font-family: 'Teko', sans-serif;
+        /* font-weight: 200; */
+        font-weight: 275px;
+        font-size: 14px;
+        display: inline-grid;
+        /* display: block; */
+        /* display: flow-root; */
+        justify-content: space-around;
+    }
+    .part1 img {
+        margin-top: 20px;
+        width: 236px;
+        margin-left: 16%;
+    }
+    .lastone {
+        display: block;
+        justify-content: space-around;
+    }
+    .lastpart img {
+        width: 334px;
+        border-radius: 5px;
+        align-items: center;
+        box-shadow: 1px 1px 20px lightgrey;
+        justify-content: center;
+        margin-left: 37px;
+    }
+    .lastpart {
+        display: block;
+        margin-left: 11px;
+        width: 358px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+    li {
+        display: none;
+    }
+    .preorder{
+        display: block;
+        justify-content: space-around;
+        width: 430px !important;
+    }
+
+
+    .productcat {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        padding-top: 40px;
+    }
+    .logolist {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        padding-top: 40px;
+    }
+    .logo {
+        margin-right: 0px;
+    }
+
+
+  }
